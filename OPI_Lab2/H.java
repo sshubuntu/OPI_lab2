@@ -19,4 +19,8 @@ public class H implements C {
     public String kk() {
         return "No";
     }
+
+    public java.lang.Class qq() {
+        return getClass();
+    }
 }

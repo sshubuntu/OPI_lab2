@@ -27,4 +27,8 @@ public class I implements G, C {
     public String kk() {
         return "No";
     }
+
+    public void bb() {
+        System.out.println(getClass().getName());
+    }
 }
